@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Credenciais e variáveis de ambiente (NUNCA subir)
+.env
+*.env
+secrets.json
+azure_credentials.json
+
+# Dados brutos e processados (podem ser grandes / sensíveis)
+data/raw/
+data/processed/
+*.csv
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mkv
+
+# Modelos treinados
+*.pt
+*.pth
+*.onnx
+*.h5
+weights/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Logs
+*.log
+logs/
+
+# Relatórios gerados (outputs temporários)
+reports/*.json
+reports/*.html

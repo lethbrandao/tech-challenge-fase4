@@ -1,0 +1,32 @@
+# ─── Módulo 1: Análise de Vídeo ───────────────────────────────────────────────
+ultralytics>=8.2.18          # YOLOv8
+opencv-python>=4.9.0.80      # processamento de frames de vídeo
+mediapipe>=0.10.30           # alternativa open-source ao OpenPose para análise postural
+
+# ─── Módulo 2: Análise de Áudio ───────────────────────────────────────────────
+azure-cognitiveservices-speech>=1.38.0   # Azure Speech to Text
+azure-ai-textanalytics>=5.3.0            # Azure Text Analytics (sentimentos, entidades)
+pydub>=0.25.1                            # manipulação de arquivos de áudio
+librosa>=0.10.2                          # extração de features de áudio (tom, ritmo, energia)
+soundfile>=0.12.1
+
+# ─── Módulo 3: Detecção de Anomalias ──────────────────────────────────────────
+scikit-learn>=1.4.2          # Isolation Forest, modelos clássicos
+pandas>=2.2.2                # manipulação de séries temporais
+numpy>=1.26.4
+scipy>=1.13.0
+statsmodels>=0.14.2          # análise estatística de séries temporais
+
+# ─── Pipeline / Orquestração ──────────────────────────────────────────────────
+python-dotenv>=1.0.1         # carregamento do .env
+loguru>=0.7.2                # logging estruturado
+
+# ─── Utilitários gerais ───────────────────────────────────────────────────────
+requests>=2.32.2
+tqdm>=4.66.4                 # barras de progresso
+matplotlib>=3.9.0            # visualizações nos notebooks
+seaborn>=0.13.2
+
+# ─── Notebooks ────────────────────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.29.4
