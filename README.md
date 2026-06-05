@@ -128,14 +128,3 @@ Datasets recomendados: [PhysioNet](https://physionet.org/) | [Google AudioSet](h
 - Classifica severidade por faixas de referência clínica
 - Integra com o sistema de alertas central
 
----
-
-## Equipe
-
-| Nome | Responsabilidade |
-|------|-----------------|
-| — | Módulo 1 — Análise de Vídeo |
-| — | Módulo 2 — Análise de Áudio |
-| — | Módulo 3 — Detecção de Anomalias |
-| — | Pipeline + Integração |
-| — | Relatório técnico + Vídeo |
